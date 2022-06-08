@@ -45,6 +45,11 @@ body {
     text-align: center;
 }
 
+img {
+    padding: 5px;
+    width: 30px;
+}
+
 
 @keyframes desplazamientos {
     0% {
