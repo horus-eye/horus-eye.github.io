@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(bg.jpg);
+    background-image: url(img/bg.jpg);
     image-rendering: auto;
 }
 
@@ -23,7 +23,7 @@ body {
     color: aliceblue;
     padding: 10px;
     text-align: center;
-    background-image: url(bg.jpg);
+    background-image: url(img/bg.jpg);
 }
 
 .move {
@@ -41,7 +41,8 @@ body {
 .footer #texto {
     color: aliceblue;
     padding: 25px;
-    flex-flow: row wrap;
+    width: 100%;
+    text-align: center;
 }
 
 
