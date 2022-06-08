@@ -12,6 +12,8 @@ body {
 .container {
     display: flex;
     justify-content: center;
+    flex-flow: column wrap;
+
 
 }
 
@@ -22,4 +24,69 @@ body {
     padding: 10px;
     text-align: center;
     background-image: url(img/bg.jpg);
+}
+
+.move {
+    border: 1px solid white;
+    flex-basis: 100px;
+    width: 100px;
+    background-color: rgb(95, 1, 1);
+    transition: all 300ms;
+    animation-name: desplazamientos;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.footer #texto {
+    color: aliceblue;
+    padding: 25px;
+    flex-flow: row wrap;
+}
+
+
+@keyframes desplazamientos {
+    0% {
+        transform: rotate(0deg);
+        justify-content: center;
+        margin: 0px auto;
+        margin-top: 20px;
+
+    }
+
+    20% {
+        transform: rotate(360deg);
+        border-radius: 10px;
+        justify-content: center;
+        margin: 0px auto;
+        margin-top: 20px;
+
+
+
+
+    }
+
+    75% {
+        background-color: red;
+        border-radius: 999px;
+        justify-content: center;
+        margin: 0px auto;
+        margin-top: 20px;
+
+
+
+
+
+    }
+
+    100% {
+        transform: rotate(0deg);
+        justify-content: center;
+        margin: 0px auto;
+        margin-top: 20px;
+
+
+
+    }
+
 }
