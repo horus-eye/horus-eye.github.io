@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/bg.jpg);
+    image-rendering: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+#header {
+    flex-grow: 1;
+    height: 100px;
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    background-image: url(img/bg.jpg);
+}
